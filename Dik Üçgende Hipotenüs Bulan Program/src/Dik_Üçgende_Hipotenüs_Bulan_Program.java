@@ -9,17 +9,17 @@ public class Main {
 
         Scanner inp = new Scanner(System.in);
 
-        System.out.print("a Kenar?n?n Ölçüsünü Giriniz : ");
+        System.out.print("a KenarÄ±nÄ±n Ã–lÃ§Ã¼sÃ¼nÃ¼ Giriniz : ");
         a = inp.nextInt();
 
-        System.out.print("b Kenar?n?n Ölçüsünü Giriniz : ");
+        System.out.print("b KenarÄ±nÄ±n Ã–lÃ§Ã¼sÃ¼nÃ¼ Giriniz : ");
         b = inp.nextInt();
 
         c = Math.sqrt((a * a) + (b * b)) ;
-        System.out.println("c Kenar?n?n Ölçüsü : " + c);
+        System.out.println("c KenarÄ±nÄ±n Ã–lÃ§Ã¼sÃ¼ : " + c);
 
         alan = a * b / 2 ;
-        System.out.print("Üçgenin Alan? : " + alan);
+        System.out.print("ÃœÃ§genin AlanÄ± : " + alan);
 
 
         }
