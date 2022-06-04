@@ -8,19 +8,19 @@ public class Main {
 
         Scanner inp = new Scanner(System.in);
 
-        System.out.print("Armut Kaç Kg? : ");
+        System.out.print("Armut KaÃ§ Kg? : ");
         armutKg = inp.nextInt();
 
-        System.out.print("Elma Kaç Kg? : ");
+        System.out.print("Elma KaÃ§ Kg? : ");
         elmaKg = inp.nextInt();
 
-        System.out.print("Domates Kaç Kg? : ");
+        System.out.print("Domates KaÃ§ Kg? : ");
         domatesKg = inp.nextInt();
 
-        System.out.print("Muz Kaç Kg? : ");
+        System.out.print("Muz KaÃ§ Kg? : ");
         muzKg = inp.nextInt();
 
-        System.out.print("Patlýcan Kaç Kg? : ");
+        System.out.print("PatlÄ±can KaÃ§ Kg? : ");
         patlicanKg = inp.nextInt();
 
         toplamTutar = (armutKg * armutBirim) + (elmaKg * elmaBirim) + (domatesKg * domatesBirim) + (muzKg * muzBirim) + (patlicanKg * patlicanBirim);
