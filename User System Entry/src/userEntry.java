@@ -22,7 +22,7 @@ public class userEntry {
             if (answer.equals("yes")) {
                 System.out.print("Enter new password : ");
                 newPassword = input.nextLine();
-                while (newPassword.equals("java123")) {
+                while (newPassword.equals("java123") || newPassword.equals(password)) {
                     System.out.print("Password cannot be created. Enter a different password : ");
                     newPassword = input.nextLine();
                 }
